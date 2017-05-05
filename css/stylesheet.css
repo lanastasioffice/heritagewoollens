@@ -1,0 +1,430 @@
+/*body {
+    background-color: #ADD9D7;
+}*/
+
+
+/* Use the following CSS rules to specify these families:
+font-family: 'Playfair Display SC', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Source Serif Pro', serif;
+font-family: 'Merriweather', serif;*/
+
+
+/* change fonts as follows - main headers use playfair display, small headers use playfair display sc, text use source serif pro - possible change to sans-serif for easier reading*/
+
+.container {
+    background-color: #ADD9D7;
+    margin: auto;
+    font-family: 'Source Serif Pro', serif;
+    /* max-width: 1024px; confirm good max width dimension*/
+}
+
+.navwrap {
+    /* lighter background-color: #66a6bd;*/
+    /*original background-color: #2F6B80;*/
+    background-color: #3E8BA8;
+    position: fixed;
+    top: 0px;
+    width: 98%;
+    /*I would like to learn how to have the navwrap line up with the left and right sides of the page - now it hangs over the right side - it is not because I have the contaner below the navwrap in the index?*/
+    border: double 10px;
+}
+
+.navwrap img {
+    height: 80px;
+    display: block;
+    float: left;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.navbar {
+    list-style-type: none;
+    float: right;
+    background-color: #3E8BA8;
+    padding-right: 3px;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 14px 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #FFFFFF;
+   font-family: 'Playfair Display SC', serif;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background-color: #ADD9D7;
+    color: #000000;
+}
+
+.navbar a.active {
+    background-color: #4CAF50;
+}
+
+.navwrap+div {
+    clear: both;
+}
+
+
+/*body {
+    background-color: #ADD9D7;
+}*/
+
+
+/*.container {
+    background-color: #ADD9D7;
+    margin: auto;
+    font-family: 'Source Serif Pro', serif;
+    /* max-width: 1024px; confirm good max width dimension*/
+
+
+/*}*/
+
+
+/*heritage woollens*/
+
+.homeheader1 {
+    background-color: #36995C;
+    /*height: 120px; took out px height so the header size will adjust with screen size*/
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    color: #00000;
+    font-size: 6em;
+    margin: auto;
+    padding-top: 120px;
+    /*had to add increase from 30px to 120px because fixed navwrap was completely covering header. And, when I changed the navwrap to relative, it shrank in height to about 3px and booted all the content below it.*/
+}
+
+
+/*from fleece to yarn*/
+
+.homeheader2 {
+    background-color: #658499;
+    height: 60px;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    color: #000000;
+    /*Aaron, I believe the default color for text is black, so having this code is redundant, correct?*/
+    font-size: 3em;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.homeimage img {
+    width: 100%;
+}
+.homeimagec img {
+    width: 98%;
+}
+.homeimage p {
+    /* needed to make a correction so that text
+    does not run off the container background on
+    the right side of page April 9th, so changed 
+    width to 98% instead of 100%*/
+    width: 98%;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.15em;
+    text-align: center;
+    margin: 10px;
+}
+
+.imagestextholder {
+    text-align: left;
+    /*background-color: pink; used to see placement of images and text
+    pink background will be changed once layout is finalized*/
+}
+
+.middle {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+    margin: 0 2%;
+    text-align: left;
+    font-size: 1.15em;
+    /*need to add font family*/
+}
+
+h2 {
+    padding-left: 25px;
+}  
+h3 {
+    padding-top: 25px;
+}
+/*.middleright {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+    margin: 0 2%;
+    text-align: right;
+    font-size: 1.15em;
+    
+}*/
+
+
+/*heritage woollens*/
+
+.smallheader {
+    background-color: #36995C;
+    /*height: 50px;*/
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Playfair Display SC', serif;
+    color: #00000;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: auto;
+    padding-top: 100px;
+}
+
+
+/*.productsections img{
+    background-color: lightblue;
+    width: 35%;
+    margin: 0 2%;
+    /*vertical-align: center;
+    text-align: left;
+    font-size: 1.15em;
+    border:  15px;
+    DO I EVEN NEED THIS PRODUCTSECTIONS CLASS? I DOES NOT APPEAR TO BE DOING ANYTHING!
+}*/
+
+.productimg {
+    display: inline-block;
+    max-width: 400px;
+    max-height: 266px;
+    vertical-align: middle;
+    margin: 0 2%;
+    text-align: left;
+    border: 5px solid #000000;
+    background-color: pink;
+}
+
+.spacer {
+    height: 25px;
+    clear: both;
+}
+
+.orderform {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+    margin: 0 2%;
+    font-size: 1.5em;
+    color: #FFF;
+    background-color: #2F6B80;
+    border: 5px solid #10291A;
+    /*is there a code to make the text within forms vertical align? eg w/in fleece*/
+}
+
+#productsbottom {
+    padding-bottom: 1.5em;
+    border-bottom: solid black .25em;
+}
+/*sheep skins/fleece/roving wool/medium weight/bulky/stock colors/custom colors*/
+
+.subheader {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    border-top: solid black .15em;
+    border-bottom: solid black .15em;
+    background-color: #ADD9D7;
+}
+
+.missionheader {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    border-top: solid black .15em;
+    border-bottom: solid black .15em;
+    background-color: #658499
+}
+
+.colors {
+    /*  background-color: white;*/
+    text-align: center;
+    /*Ask Aaron what I am missing - want each of the blocks of color to be centered on the page so that the left margin and right margin are the same. Ideally, those margins would be fairly narrow*/
+}
+
+.colorname {
+    display: inline-block;
+    font-family: 'Merriweather', serif;
+    font-size: 1.15em;
+    font-weight: bold;
+    vertical-align: bottom;
+    /*Ask Aaron what is wrong with code b/c text is on top - Aaron suggested using flexbox to get names text on bottom*/
+    text-align: center;
+    width: 23%;
+    height: 10em;
+    border: solid black 5px;
+    background-image: url("../images/sheep.png");
+    /* margin: 5px;*/
+}
+
+.spacer {
+    height: 3px;
+}
+
+.bottomspacer {
+    height: 10px;
+}
+
+/*color names and references are placeholders, they will be edited and all have hexidecimal #'s or be images*/
+
+#yellow {
+    background-color: #FFFF00;
+}
+
+#green {
+    background-color: #008000;
+}
+
+#forest {
+    background-color: #155738;
+}
+
+#aqua {
+    background-color: #5FD4C4;
+}
+
+#blue {
+    background-color: #0000FF;
+}
+
+#navy {
+    background-color: #0D1547;
+}
+
+#lavender {
+    background-color: #A186C4;
+}
+
+#eggplant {
+    background-color: #5C1973;
+}
+
+#darkred {
+    background-color: #BF0202;
+}
+
+#red {
+    background-color: #F50505;
+}
+
+#poppy {
+    background-color: #F53905;
+}
+
+#orange {
+    background-color: #FC7E00;
+}
+
+.customname {
+    display: inline-block;
+    font-family: 'Merriweather', serif;
+    font-size: 1.15em;
+    font-weight: bold;
+    vertical-align: bottom;
+    /*Ask Aaron what is wrong with code b/c text is on top*/
+    text-align: center;
+    width: 30%;
+    height: 10em;
+    border: solid black 5px;
+    background-image: url("../images/sheep.png");
+}
+
+.customtext {
+    display: inline-block;
+    /*font-family: 'Merriweather', serif;*/
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.15em;
+    font-weight: bold;
+    vertical-align: bottom;
+    /*Ask Aaron what is wrong with code b/c text is on top - Aaron suggested using flexbox to get names text on bottom*/
+    text-align: center;
+    width: 30%;
+    /*height: 10em;*/
+    border: solid black 5px;
+}
+
+#solids {
+    background-image: url("../images/solidred400pxlr.jpg");
+}
+
+#heathers {
+    background-image: url("../images/heathercolorcropped400pxlr.jpg");
+}
+
+#donegals {
+    background-image: url("../images/donegalcropped400pxlr.jpg");
+}
+
+.studio {
+    font-family: 'Merriweather', serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    
+}
+
+/* padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;*/
+
+.mission {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
+}
+
+
+/* Did not end up using this class
+.imagesright p {
+    float: left;
+    background-color: orange;
+    width: 50%;
+    font-family: 'Source Serif Pro', serif;
+    text-align: left;
+}*/
+
+.footer {
+    text-align: right;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.transparent {
+    background-color: rgba(173, 217, 215, 0.40);
+    padding: 5px 5px 0px 5px;
+    /*give the rectangle behind name a little more width*/
+}
+
+.footerleft {
+    padding-left: 20px;
+    padding-bottom: -30px;
+    font-weight: bold;
+   /* vertical-align: bottom;*/
+}
+
+ul li {
+    font-size: 1.15em;
+}
+#address {
+    padding-top: 20px;
+}
+/*font-family: 'Playfair Display SC', serif;
+    font-weight: bold;
+    font-size: .55em;*/

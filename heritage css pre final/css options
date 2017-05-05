@@ -1,0 +1,130 @@
+/*container {
+    background-color: #ADD9D7;
+    margin: auto;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.navwrap {
+    background-color: aqua;
+    position: fixed;
+    top: 0px;
+    width: 98%;
+}
+
+.navwrap img {
+    height: 80px;
+    display: block;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.navbar {
+    list-style-type: none;
+    float: right;
+    background-color: lightcyan;
+    padding-right: 6px;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 4px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background-color: blueviolet;
+}
+
+.navwrap+div {
+    clear: both;
+}
+
+
+/*.navwrp + div affects the layout - ask Aaron how/why*/
+
+
+/*body {
+    background-color: #ADD9D7;
+}*/
+
+
+/* Use the following CSS rules to specify these families:
+font-family: 'Playfair Display SC', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Source Serif Pro', serif;
+font-family: 'Merriweather', serif;*/
+
+
+/* change fonts as follows - main headers use playfair display, small headers use playfair display sc, text use source serif pro - possible change to sans-serif for easier reading*/
+
+/*.container {
+    background-color: #ADD9D7;
+    margin: auto;
+    font-family: 'Source Serif Pro', serif;
+    /* max-width: 1024px; confirm good max width dimension*/
+/*}
+
+
+/*Aaron - the nav bar below is not mine - 
+I just copied and pasted to see what it would look like*/
+
+
+/* Add tonal background color to top navigation bar */
+
+/*.logoholder {
+    float: left;
+}
+
+.menuholder {
+    display: block;
+    /*float: right; it seems as if this does nothing to the layout*/
+    /*width: 100%;
+    text-align: right;
+}
+
+.topnav {
+    background-color: #2F6B80;
+    overflow: hidden;
+    border: double 10px;
+}
+
+
+/* Style the links inside the navigation bar */
+
+/*.topnav a {
+    float: left;
+    display: block;
+    color: #ADD9D7;
+    /* changed text color above from: #E1F4FA to white */
+   /* text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+
+/* Change the color of links on hover */
+
+/*.topnav a:hover {
+    background-color: #ADD9D7;
+    /* changed bacground color from: #ddd to white*/
+    /*color: black;
+}
+
+
+/* Add a color to the active/current link */
+
+/*.topnav a.active {
+    background-color: #4CAF50;
+    /* when active background color should be grass green */
+    /*color: white;
+}
+*/
